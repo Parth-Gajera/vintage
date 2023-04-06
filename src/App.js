@@ -5,6 +5,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
 
+
 import Home from "./component/Home"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
 <>
 <BrowserRouter>
 <Routes>
+  
   <Route path='/' element={<Home/>}></Route>
   
   
